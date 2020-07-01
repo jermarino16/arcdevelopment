@@ -25,10 +25,10 @@ function App() {
           />
           <Route
             exact
-            path="/mobileapp"
-            component={() => <div>mobileapp</div>}
+            path="/mobileapps"
+            component={() => <div>Mobile Apps</div>}
           />
-          <Route exact path="/websites" component={() => <div>websites</div>} />
+          <Route exact path="/websites" component={() => <div>Websites</div>} />
           <Route
             exact
             path="/revolution"
