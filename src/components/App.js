@@ -1,14 +1,9 @@
 import React from "react";
-import {
-  createMuiTheme,
-  makeStyles,
-  ThemeProvider,
-} from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import theme from "./ui/Theme";
 import Header from "../components/ui/Header";
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
